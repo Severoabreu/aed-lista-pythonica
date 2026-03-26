@@ -1,8 +1,3 @@
-def hello_world() -> str:
-    """
-    Retorna a string padrão de saudação.
+def hello_world():
+    return "Hello, World!"
 
-    Returns:
-        str: "Hello, World!"
-    """
-    pass

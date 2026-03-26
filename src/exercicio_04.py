@@ -1,11 +1,5 @@
-def format_name(name: str) -> tuple[str, str, str]:
-    """
-    Retorna o nome em diferentes formatos.
-
-    Args:
-        name (str): nome de entrada
-
-    Returns:
-        tuple[str, str, str]: (lowercase, uppercase, titlecase)
-    """
-    pass
+def format_name(nome):
+    minusculo = nome.lower()
+    maiusculo = nome.upper()
+    capitalizado = nome.title()
+    return(minusculo, maiusculo, capitalizado)
